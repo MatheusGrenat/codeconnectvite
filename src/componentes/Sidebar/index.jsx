@@ -1,6 +1,6 @@
 import Logo from './assets/Logo.svg';
 import Feed from './assets/feed.svg';
-import AccountCircle from './assets/accout_circle.svg';
+import Account from './assets/account_circle.svg';
 import Info from './assets/info.svg';
 import Logout from './assets/logout.svg';
 
@@ -21,7 +21,7 @@ export default function Sidebar(){
                     </li>
                     <li>
                         <a href='#'>
-                            <img src={AccountCircle} alt='' />
+                            <img src={Account} alt='' />
                             <span>Perfil</span>   
                         </a>    
                     </li>
