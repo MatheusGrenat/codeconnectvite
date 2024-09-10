@@ -1,0 +1,24 @@
+.lista-ordenacao{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    list-style-type: none;
+    margin-top: 3.5em;
+}
+
+.ordenacao-link-clicado{
+    font: var(--fonte);
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--verde-destaque);
+    line-height: 33px;
+}
+
+.ordenacao-link{
+    text-decoration: none;
+    font: var(--fonte);
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--cinza-medio);
+    line-height: 33px; 
+}
