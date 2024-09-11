@@ -15,21 +15,21 @@ export default function Card(){
             <div className='card__conteudo'>
                 <div className='conteudo__texto'>
                     <h3>Titulo do post</h3>
-                    <p>Resumo do post</p>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.</p>
                 </div>
                 <div className='conteudo__rodape'>
-                    <ul>
+                    <ul className='lista__rodape'>
                         <li>
                             <img src={Code} alt="codigos" />
-                            100
+                            <p>10</p>
                         </li>
                         <li>
                             <img src={Share} alt="compartilhamentos" />
-                            12
+                            <p>10</p>
                         </li>
                         <li>
                             <img src={Chat} alt="comentarios" />
-                            10
+                            <p>12</p>
                         </li>
                     </ul>
                     <div className='rodape__usuario'>
